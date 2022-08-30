@@ -6,7 +6,7 @@
 /*   By: andchris <andchris1987@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/09 22:03:57 by andchris          #+#    #+#             */
-/*   Updated: 2022/08/29 23:12:52 by andchris         ###   ########.fr       */
+/*   Updated: 2022/08/30 21:03:48 by andchris         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <signal.h>
-#include "ft_printf/ft_printf.h"
+#include "libft/libft.h"
 
 typedef struct s_message
 {

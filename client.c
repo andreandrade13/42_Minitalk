@@ -6,7 +6,7 @@
 /*   By: andchris <andchris1987@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/09 21:57:15 by andchris          #+#    #+#             */
-/*   Updated: 2022/08/29 23:16:22 by andchris         ###   ########.fr       */
+/*   Updated: 2022/08/30 21:03:41 by andchris         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <signal.h>
-#include "ft_printf/ft_printf.h"
+#include "libft/libft.h"
 
 void    send_bit(int pid, char *str, size_t len)
 {
