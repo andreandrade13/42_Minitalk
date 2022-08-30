@@ -6,7 +6,7 @@
 /*   By: andchris <andchris1987@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/09 21:57:15 by andchris          #+#    #+#             */
-/*   Updated: 2022/08/30 21:03:41 by andchris         ###   ########.fr       */
+/*   Updated: 2022/08/30 21:25:10 by andchris         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ void    send_bit(int pid, char *str, size_t len)
             else
                 kill(pid, SIGUSR1);
             shift++;
-            usleep(300);
+            usleep(150);
         }
         i++;
     }
