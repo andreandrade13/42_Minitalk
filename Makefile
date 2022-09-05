@@ -1,4 +1,4 @@
-FLAGS = -Wall -Werror -Wextra
+FLAGS = -Wall -Werror -Wextra -fsanitize=address
 CC = gcc
 
 SERVER = server
