@@ -6,15 +6,11 @@
 /*   By: andchris <andchris1987@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/09 21:57:15 by andchris          #+#    #+#             */
-/*   Updated: 2022/09/07 22:11:25 by andchris         ###   ########.fr       */
+/*   Updated: 2022/09/13 19:06:11 by andchris         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <signal.h>
-#include "libft/libft.h"
+#include "minitalk.h"
 
 void    send_bit(int pid, char *str, size_t len)
 {

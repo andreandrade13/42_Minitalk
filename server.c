@@ -6,15 +6,11 @@
 /*   By: andchris <andchris1987@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/09 22:03:57 by andchris          #+#    #+#             */
-/*   Updated: 2022/08/30 21:03:48 by andchris         ###   ########.fr       */
+/*   Updated: 2022/09/13 19:09:53 by andchris         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <signal.h>
-#include "libft/libft.h"
+#include "minitalk.h"
 
 typedef struct s_message
 {

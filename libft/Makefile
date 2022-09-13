@@ -6,7 +6,7 @@
 #    By: andchris <andchris1987@gmail.com>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/05 15:01:13 by andchris          #+#    #+#              #
-#    Updated: 2022/08/30 21:04:51 by andchris         ###   ########.fr        #
+#    Updated: 2022/09/13 21:50:25 by andchris         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,14 +26,14 @@ FLAGS = -Wall -Wextra -Werror
 		${CC} ${FLAGS} -g -c $< -o ${<:.c=.o}
 
 $(NAME): ${OBJ}
-		ar rcs ${NAME} ${OBJ}
+		@ar rcs ${NAME} ${OBJ}
 
 all: ${NAME}
 
 clean:
-		${RM} ${OBJ} #${OBJBONUS}
+		@rm -f ${OBJ} #${OBJBONUS}
 
 fclean: clean
-			${RM} ${NAME}
+			@rm -f ${NAME}
 
 re: fclean all
